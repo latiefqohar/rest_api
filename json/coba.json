@@ -1,0 +1,12 @@
+{
+    "nama": "abdul latief ",
+    "umur": 32,
+    "hobby": [
+        "coding",
+        "jalan Jalan"
+    ],
+    "pembimbing": {
+        "pembimbing1": "ir x",
+        "pembimbing2": "ir Y"
+    }
+}
