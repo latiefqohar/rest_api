@@ -14,6 +14,7 @@ require APPPATH . 'libraries/Format.php';
      {
          parent::__construct();
          $this->load->model('m_mahasiswa');
+         $this->methods['index_get']['limit'] = 100;//untuk methods index_get() perjam hanya 100 kali hits
          
      }
 
