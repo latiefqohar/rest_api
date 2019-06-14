@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 02, 2019 at 03:51 AM
+-- Generation Time: Jun 14, 2019 at 12:45 PM
 -- Server version: 10.1.25-MariaDB
 -- PHP Version: 7.1.7
 
@@ -65,7 +65,7 @@ CREATE TABLE `limits` (
 --
 
 INSERT INTO `limits` (`id`, `uri`, `count`, `hour_started`, `api_key`) VALUES
-(1, 'uri:api/mahasiswa/index:get', 4, 1559439767, 'generatekey1');
+(1, 'uri:api/mahasiswa/index:get', 12, 1560506473, 'generatekey1');
 
 -- --------------------------------------------------------
 
@@ -87,7 +87,7 @@ CREATE TABLE `mahasiswa` (
 
 INSERT INTO `mahasiswa` (`id`, `nrp`, `nama`, `email`, `jurusan`) VALUES
 (1, '20141168', 'abdul latief qohar', 'latief@gmail.com', 'informatika'),
-(2, '20115255', 'latief qohar', 'latief@gmail.com', 'sistem informasi');
+(3, '512154152', 'abdul qohar skom', 'julid@jahad.com', 'Teknik Pangan');
 
 --
 -- Indexes for dumped tables
@@ -129,7 +129,7 @@ ALTER TABLE `limits`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
